@@ -9,7 +9,7 @@ body{
 }
 
 .title {
-    background-color: #D9D9D9;
+    background-color: #49ea59b7;
     text-align: center;
     height: 65px;
 }
@@ -73,7 +73,7 @@ img {
     cursor: pointer;
 }
 .tag{
-    background-color: #57e9df;
+    background-color: #79f085b7;
     color: #000000;
     border-radius: 30px;
     width: 30%;
