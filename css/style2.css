@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+    display: none;
+}
+:root{
+    font-family: 'Noto Serif KR', serif;
+}
+body{
+    font-family: var(--body-font);
+}
+.im1 {
+    width: 350px;
+    margin-left: 55px;
+    float: left;
+}
+img {
+    width: 350px;
+    height: 243px;
+}

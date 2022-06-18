@@ -45,11 +45,10 @@ h1 {
     margin-left: 55px;
     float: left;
 }
-.heart{
-    position: absolute;
-    margin-left: 300px;
-    width: 100px;
-    height: 120px;
+#heart{
+    display: flex;
+    align-items:flex;
+    justify-content: center;
 }
 
 img {
