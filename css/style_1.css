@@ -1,10 +1,10 @@
 ::-webkit-scrollbar {
     display: none;
 }
-:root{
+:root {
     font-family: 'Noto Serif KR', serif;
 }
-body{
+body {
     font-family: var(--body-font);
 }
 
@@ -32,10 +32,10 @@ body{
     margin-left: 10px;
     margin-top: -3px;
 }
-.group{
+.group {
     display: flex;
 }
-.grouptag{
+.grouptag {
     flex: 1;
     margin-top: 10px;
     margin-left: 10px;
@@ -43,13 +43,13 @@ body{
     height: 700px;
     background-color: #D9D9D9;
 }
-h5{
+h5 {
     text-align: center;
 }
-.tag:hover{
+.tag:hover {
     cursor: pointer;
 }
-.tag{
+.tag {
     margin-left: 10px;
     background-color: #79f085b7;
     color: #000000;
@@ -60,11 +60,11 @@ h5{
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.tagtext{
+.tagtext {
     text-align: center;
     color: #4d4b4b;
 }
-.placegroup{
+.placegroup {
     margin-right: 10px;
     flex: 1;
     float: left;
@@ -78,9 +78,9 @@ img {
     width: 300px;
     height: 230px;
 }
-.im1{
+.im1 {
     margin-left: 10px;
 }
-.cont:hover{   
+.cont:hover {
     cursor: pointer;
 }
