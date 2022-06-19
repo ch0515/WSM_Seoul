@@ -11,3 +11,7 @@ function addLike() {
         pushHeartBtn.style.color = 'red';
     }
 }
+function addbtn(){
+    const button = document.getElementById("btn1");
+    alert("태그 추가 완료!");
+}
