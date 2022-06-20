@@ -41,10 +41,13 @@
                     <a class="dropdown-item" href="#">송파구</a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="#">서대문구</a>
+                    <a class="dropdown-item" href="#">용산구</a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="#">용산구</a>
+                    <a class="dropdown-item" href="#">송파구</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">서대문구</a>
                 </li>
                 <li>
                     <a class="dropdown-item" href="#">중구</a>
@@ -57,13 +60,16 @@
             </button>
             <ul class="dropdown-menu">
                 <li>
-                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">계동길</a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">청운동</a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="#">Link 3</a>
+                    <a class="dropdown-item" href="#">오륜동</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">남산공원길</a>
                 </li>
             </ul>
         </div>
@@ -73,13 +79,19 @@
             </button>
             <ul class="dropdown-menu">
                 <li>
-                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">율곡로</a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">올림픽로</a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="#">Link 3</a>
+                    <a class="dropdown-item" href="#">사직로</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">통일로</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">을지로</a>
                 </li>
             </ul>
         </div>
@@ -89,13 +101,13 @@
             </button>
             <ul class="dropdown-menu">
                 <li>
-                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#"> ~ 20</a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">20 ~ 30</a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="#">Link 3</a>
+                    <a class="dropdown-item" href="#">30 ~ </a>
                 </li>
             </ul>
         </div>
@@ -107,19 +119,16 @@
             </a>
             <div class="cont">
                 <h5>북촌 한옥 마을</h5>
-                <button class="heartBtn" onclick="addLike()" id="heart">
+                <button class="heartBtn" onclick="addLike()" id="heart1">
                     <i class='bx bx-heart'></i>
                 </button>
                 <p class="loca">서울특별시 종로구 계동길 37</p>
             </div>
             <div class="tag">
-                    <p class="tagtext"># 한옥</p>
+                    <p class="tagtext" onclick="addbtn()"># 한옥</p>
             </div>
             <div class="tag">
-                <p class="tagtext"># 전통</p>
-            </div>
-            <div class="tag">
-                <p class="tagtext"># 문화유산</p>
+                <p class="tagtext" onclick="addbtn()"># 전통</p>
             </div>
         </div>
         <div class="im1">
@@ -127,15 +136,15 @@
                 <img src="img/창덕궁.jpg" class="img-fluid" alt="...">
             </a>
             <h5>창덕궁</h5>
+            <button class="heartBtn1" onclick="addLike1()" id="heart1">
+                <i class='bx bx-heart'></i>
+            </button>
             <p>서울특별시 종로구 율곡로 99</p>
             <div class="tag">
-                <p class="tagtext"># 궁궐</p>
+                <p class="tagtext" onclick="addbtn()"># 궁궐</p>
             </div>
             <div class="tag">
-                <p class="tagtext"># 전통</p>
-            </div>
-            <div class="tag">
-                <p class="tagtext"># 문화유산</p>
+                <p class="tagtext" onclick="addbtn()"># 문화유산</p>
             </div>
         </div>
         <div class="im1">
@@ -143,12 +152,15 @@
                 <img src="img/북악산.webp" class="img-fluid" alt="...">
             </a>
             <h5>북악산</h5>
+            <button class="heartBtn2" onclick="addLike2()" id="heart1">
+                <i class='bx bx-heart'></i>
+            </button>
             <p>서울특별시 종로구 청운동 산2-27번지</p>
             <div class="tag">
-                <p class="tagtext"># 등산</p>
+                <p class="tagtext" onclick="addbtn()"># 등산</p>
             </div>
             <div class="tag">
-                <p class="tagtext"># 전경</p>
+                <p class="tagtext" onclick="addbtn()"># 전경</p>
             </div>
         </div>
         <div class="im1">
@@ -156,12 +168,15 @@
                 <img src="img/올림픽공원.webp" class="img-fluid" alt="...">
             </a>
             <h5>올림픽 공원</h5>
+            <button class="heartBtn3" onclick="addLike3()" id="heart3">
+                <i class='bx bx-heart'></i>
+            </button>
             <p>서울 송파구 오륜동 올림픽로 424</p>
             <div class="tag">
-                <p class="tagtext"># 공원</p>
+                <p class="tagtext" onclick="addbtn()"># 공원</p>
             </div>
             <div class="tag">
-                <p class="tagtext"># 가족 나들이</p>
+                <p class="tagtext" onclick="addbtn()"># 가족 나들이</p>
             </div>
         </div>
         <div class="im1">
@@ -169,15 +184,15 @@
                 <img src="img/경북궁.webp" class="img-fluid" alt="...">
             </a>
             <h5>경북궁</h5>
+            <button class="heartBtn4" onclick="addLike4()" id="heart4">
+                <i class='bx bx-heart'></i>
+            </button>
             <p>서울특별시 종로구 사직로 161번지</p>
             <div class="tag">
-                <p class="tagtext"># 궁궐</p>
+                <p class="tagtext" onclick="addbtn()"># 궁궐</p>
             </div>
             <div class="tag">
-                <p class="tagtext"># 전통</p>
-            </div>
-            <div class="tag">
-                <p class="tagtext"># 문화유산</p>
+                <p class="tagtext" onclick="addbtn()"># 문화유산</p>
             </div>
         </div>
         <div class="im1">
@@ -185,15 +200,15 @@
                 <img src="img/N서울타워.webp" class="img-fluid" alt="...">
             </a>
             <h5>N서울타워</h5>
+            <button class="heartBtn5" onclick="addLike5()" id="heart5">
+                <i class='bx bx-heart'></i>
+            </button>
             <p>서울특별시 용산구 남산공원길 105</p>
             <div class="tag">
-                <p class="tagtext"># 타워</p>
+                <p class="tagtext" onclick="addbtn()"># 데이트장소</p>
             </div>
             <div class="tag">
-                <p class="tagtext"># 데이트장소</p>
-            </div>
-            <div class="tag">
-                <p class="tagtext"># 야경</p>
+                <p class="tagtext" onclick="addbtn()"># 야경</p>
             </div>
         </div>
         <div class="im1">
@@ -201,12 +216,15 @@
                 <img src="img/롯데월드.webp" class="img-fluid" alt="...">
             </a>
             <h5>롯데월드</h5>
+            <button class="heartBtn6" onclick="addLike6()" id="heart6">
+                <i class='bx bx-heart'></i>
+            </button>
             <p>서울특별시 송파구 올림픽로 240</p>
             <div class="tag">
-                <p class="tagtext"># 놀이공원</p>
+                <p class="tagtext" onclick="addbtn()"># 놀이공원</p>
             </div>
             <div class="tag">
-                <p class="tagtext"># 가족나들이</p>
+                <p class="tagtext" onclick="addbtn()"># 가족나들이</p>
             </div>
         </div>
         <div class="im1">
@@ -214,12 +232,15 @@
                 <img src="img/서대문형무소.webp" class="img-fluid" alt="...">
             </a>
             <h5>서대문형무소역사관</h5>
+            <button class="heartBtn7" onclick="addLike7()" id="heart7">
+                <i class='bx bx-heart'></i>
+            </button>
             <p>서울특별시 서대문구 통일로 251</p>
             <div class="tag">
-                <p class="tagtext"># 역사</p>
+                <p class="tagtext" onclick="addbtn()"># 역사</p>
             </div>
             <div class="tag">
-                <p class="tagtext"># 기억</p>
+                <p class="tagtext" onclick="addbtn()"># 기억</p>
             </div>
         </div>
         <div class="im1">
@@ -227,12 +248,15 @@
                 <img src="img/동대문디자인플라자.webp" class="img-fluid" alt="...">
             </a>
             <h5>동대문 디자인플라자</h5>
+            <button class="heartBtn8" onclick="addLike8()" id="heart8">
+                <i class='bx bx-heart'></i>
+            </button>
             <p>서울특별시 중구 을지로 281</p>
             <div class="tag">
-                <p class="tagtext"># 동대문</p>
+                <p class="tagtext" onclick="addbtn()"># 동대문</p>
             </div>
             <div class="tag">
-                <p class="tagtext"># 디자인</p>
+                <p class="tagtext" onclick="addbtn()"># 디자인</p>
             </div>
         </div>
     </div>
