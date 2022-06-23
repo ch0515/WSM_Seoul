@@ -9,7 +9,7 @@ body {
 }
 
 .title {
-    background-color: #7447bca1;
+    background-color: #c99669c0;
     height: 80px;
 }
 
@@ -160,8 +160,8 @@ img {
     cursor: pointer;
 }
 .tag {
-    background-color: #8f5ae5a1;
-    color: #000000;
+    background-color: antiquewhite;
+    color: #553e2b;
     border-radius: 30px;
     width: 30%;
     height: 28px;
@@ -184,10 +184,17 @@ footer {
 
 }
 .text {
-    text-align: center;
+    text-align: left;
     background-color: pink;
 }
-
+.text1{
+    color: #4d4b4b;
+    margin-left: 20px;
+}
+.text2{
+    margin-left: 20px;
+    cursor: pointer;
+}
 .whole {
     overflow: auto;
 }

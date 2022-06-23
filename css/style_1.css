@@ -9,7 +9,7 @@ body {
 }
 
 .title {
-    background-color: #49ea59b7;
+    background-color: #c99669c0;
     text-align: center;
     height: 65px;
 }
@@ -41,7 +41,7 @@ body {
     margin-left: 10px;
     width: 600px;
     height: 700px;
-    background-color: #D9D9D9;
+    background-color: #c99669c0;
 }
 h5 {
     text-align: center;
@@ -51,8 +51,8 @@ h5 {
 }
 .tag {
     margin-left: 10px;
-    background-color: #79f085b7;
-    color: #000000;
+    background-color: antiquewhite;
+    color: #553e2b;
     border-radius: 30px;
     width: 100px;
     height: 28px;
@@ -62,7 +62,7 @@ h5 {
 }
 .tagtext {
     text-align: center;
-    color: #4d4b4b;
+    color: #553e2b;
 }
 .placegroup {
     margin-right: 10px;
@@ -72,7 +72,7 @@ h5 {
     margin-left: 10px;
     width: 600px;
     height: 700px;
-    background-color: #D9D9D9;
+    background-color: #c99669c0;
 }
 img {
     width: 300px;
