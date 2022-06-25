@@ -7,13 +7,12 @@
 body {
     font-family: var(--body-font);
 }
-
 .title {
     background-color: rgb(212, 212, 212);
     text-align: center;
     height: 80px;
 }
-.titletext{
+.titletxt {
     font-size: 3rem;
     padding-top: 10px;
 }
