@@ -9,11 +9,14 @@ body {
 }
 
 .title {
-    background-color: #c99669c0;
+    background-color: rgb(212, 212, 212);
     text-align: center;
-    height: 65px;
+    height: 80px;
 }
-
+.titletext{
+    font-size: 3rem;
+    padding-top: 10px;
+}
 .main_img {
     /* position: relative; */
     float: right;
@@ -21,16 +24,15 @@ body {
     margin-top: 3px;
 }
 .main_img {
-    width: 60px;
-    height: 60px;
-    border-radius: 70%;
-    overflow: hidden;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 .logo {
     position: absolute;
     font-size: 2.55rem;
     margin-left: 10px;
-    margin-top: -3px;
+    margin-top: 10px;
 }
 .group {
     display: flex;
@@ -41,7 +43,7 @@ body {
     margin-left: 10px;
     width: 600px;
     height: 700px;
-    background-color: #c99669c0;
+    background-color: rgb(212, 212, 212);
 }
 h5 {
     text-align: center;
@@ -51,8 +53,8 @@ h5 {
 }
 .tag {
     margin-left: 10px;
-    background-color: antiquewhite;
-    color: #553e2b;
+    background-color: rgba(255, 255, 255, 0.637);
+    /* color: rgba(216, 216, 216, 0.637); */
     border-radius: 30px;
     width: 100px;
     height: 28px;
@@ -62,7 +64,7 @@ h5 {
 }
 .tagtext {
     text-align: center;
-    color: #553e2b;
+    color: #4d4b4b;
 }
 .placegroup {
     margin-right: 10px;
@@ -72,7 +74,7 @@ h5 {
     margin-left: 10px;
     width: 600px;
     height: 700px;
-    background-color: #c99669c0;
+    background-color: rgb(212, 212, 212);
 }
 img {
     width: 300px;
@@ -82,5 +84,25 @@ img {
     margin-left: 10px;
 }
 .cont:hover {
+    cursor: pointer;
+}
+footer {
+    display: inline;
+    margin-left: 100px;
+    bottom: 0;
+    width: 100%;
+
+}
+.text {
+    text-align: left;
+    background-color: rgb(255, 209, 217);
+}
+.text1 {
+    color: #4d4b4b;
+    margin-left: 20px;
+}
+
+.text2 {
+    margin-left: 20px;
     cursor: pointer;
 }
