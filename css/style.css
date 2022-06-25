@@ -1,17 +1,20 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
 :root {
     font-family: 'Noto Serif KR', serif;
 }
+
 body {
     font-family: var(--body-font);
 }
 
 .title {
-    background-color: #c99669c0;
+    background-color: rgb(212, 212, 212);
     height: 80px;
 }
+
 .main_img {
     /* position: relative; */
     float: right;
@@ -28,9 +31,11 @@ body {
 
 h1 {
     text-align: center;
-    margin-left: auto; margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.titletxt{
+
+.titletxt {
     font-size: 3rem;
     padding-top: 10px;
 }
@@ -46,9 +51,9 @@ h1 {
 
 .im1 {
     margin-left: 4rem;
-    /* margin-left: 50px; */
     float: left;
 }
+
 .heartBtn {
     position: relative;
     top: -30px;
@@ -59,6 +64,7 @@ h1 {
     outline: 0;
     background-color: #fff;
 }
+
 .heartBtn1 {
     position: relative;
     top: -30px;
@@ -69,6 +75,7 @@ h1 {
     outline: 0;
     background-color: #fff;
 }
+
 .heartBtn2 {
     position: relative;
     top: -30px;
@@ -79,6 +86,7 @@ h1 {
     outline: 0;
     background-color: #fff;
 }
+
 .heartBtn3 {
     position: relative;
     top: -30px;
@@ -89,6 +97,7 @@ h1 {
     outline: 0;
     background-color: #fff;
 }
+
 .heartBtn4 {
     position: relative;
     top: -30px;
@@ -99,6 +108,7 @@ h1 {
     outline: 0;
     background-color: #fff;
 }
+
 .heartBtn5 {
     position: relative;
     top: -30px;
@@ -109,6 +119,7 @@ h1 {
     outline: 0;
     background-color: #fff;
 }
+
 .heartBtn6 {
     position: relative;
     top: -30px;
@@ -119,6 +130,7 @@ h1 {
     outline: 0;
     background-color: #fff;
 }
+
 .heartBtn7 {
     position: relative;
     top: -30px;
@@ -129,6 +141,7 @@ h1 {
     outline: 0;
     background-color: #fff;
 }
+
 .heartBtn8 {
     position: relative;
     top: -30px;
@@ -139,6 +152,22 @@ h1 {
     outline: 0;
     background-color: #fff;
 }
+
+.heartBtn {
+    position: relative;
+    top: -30px;
+    right: 0px;
+    font-size: 30px;
+    float: right;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+}
+
+#heart1.heartBtn {
+    margin-left: 10px;
+}
+
 /* h5{
     display: contents;
 } */
@@ -162,9 +191,10 @@ img {
 .tag:hover {
     cursor: pointer;
 }
+
 .tag {
-    background-color: antiquewhite;
-    color: #553e2b;
+    background-color: rgba(216, 216, 216, 0.637);
+    color: white;
     border-radius: 30px;
     width: 30%;
     height: 28px;
@@ -172,13 +202,16 @@ img {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
 .tagtext {
     text-align: center;
     color: #4d4b4b;
 }
+
 .loca {
     color: #4d4b4b;
 }
+
 footer {
     display: inline;
     margin-left: 100px;
@@ -186,18 +219,22 @@ footer {
     width: 100%;
 
 }
+
 .text {
     text-align: left;
-    background-color: pink;
+    background-color: rgb(255, 209, 217);
 }
-.text1{
+
+.text1 {
     color: #4d4b4b;
     margin-left: 20px;
 }
-.text2{
+
+.text2 {
     margin-left: 20px;
     cursor: pointer;
 }
+
 .whole {
     overflow: auto;
 }
