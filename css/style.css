@@ -45,7 +45,8 @@ h1 {
 }
 
 .im1 {
-    margin-left: 50px;
+    margin-left: 4rem;
+    /* margin-left: 50px; */
     float: left;
 }
 .heartBtn {
