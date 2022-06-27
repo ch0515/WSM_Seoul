@@ -217,12 +217,12 @@ footer {
     margin-left: 100px;
     bottom: 0;
     width: 100%;
-
 }
 
 .text {
     text-align: left;
-    background-color: rgb(255, 209, 217);
+    background-color: rgba(216, 216, 216, 0.387);
+    
 }
 
 .text1 {
